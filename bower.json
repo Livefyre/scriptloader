@@ -1,0 +1,15 @@
+{
+    "name": "scriptloader",
+    "version": "1.0.0",
+    "main": [
+        "./src/javascript/scriptloader.js"
+    ],
+    "dependencies": {
+        "cajon": "git@github.com:requirejs/cajon.git#~0.1.11"
+    },
+    "devDependencies": {
+        "chai": "~1.8.1",
+        "sinon-chai": "~2.4.0",
+        "sinonjs": "~1.7.3"
+    }
+}
