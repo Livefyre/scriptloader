@@ -113,10 +113,10 @@ var attachCallback = function(script, callback) {
 
 /** @param {!string} scriptSrc */
 var executeCallbacks = function(scriptSrc) {
-    var callbacks = callbacks[scriptSrc];
-    if (callbacks.length) {
-        for (var i=0, l=callbacks.length; i<l; i++) {
-            callbacks[i]();
+    var _callbacks = callbacks[scriptSrc];
+    if (_callbacks.length) {
+        for (var i=0, l=_callbacks.length; i<l; i++) {
+            _callbacks[i]();
         }
     }
     delete callbacks[scriptSrc];
