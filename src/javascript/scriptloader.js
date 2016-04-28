@@ -3,7 +3,7 @@
  * @author Ross Pfahler
  */
 
-var ObjUtil = require('scriptloader/object');
+var ObjUtil = require('./object');
 
 /**
  * Callback array. Tracks callbacks when scripts are loading
